@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 8
+names: ['case', 'crayon', 'glue', 'notebook', 'pen', 'pencil', 'ruler', 'scissor']
+
+roboflow:
+  workspace: vincent-wildc
+  project: everyday-stationery-items
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vincent-wildc/everyday-stationery-items/dataset/2
